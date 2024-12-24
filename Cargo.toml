@@ -1,0 +1,12 @@
+[package]
+name = "singlepg_hireme_rust_server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+scylla = "=0.15.1" 
+uuid = { version = "1.0", features = ["serde"] }
+rand = "0.8"
